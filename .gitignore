@@ -1,0 +1,59 @@
+# === Logs y temporales ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~lock*
+
+# === Archivos de salida o cache comunes ===
+*.out
+*.o
+*.pyc
+*.class
+*.DS_Store
+Thumbs.db
+
+# === Directorios comunes de trabajo ===
+__pycache__/
+.cache/
+.vscode/
+.idea/
+.env/
+env/
+.venv/
+tmp/
+logs/
+
+# === Ansible ===
+*.retry
+*.vault
+*.tar.gz
+*.zip
+ansible/inventory/*  # Si usas inventario sensible (ajusta si es estático o público)
+secrets.yml
+vault_pass.txt
+
+# === Archivos de configuración local ===
+*.local
+*.conf.local
+*.example
+*.override
+
+# === Ficheros de sistemas de archivos distribuidos o cuotas ===
+quota-report*
+beegfs-meta.log*
+beegfs-storage.log*
+beegfs-client.log*
+*.pid
+*.sock
+
+# === Documentación generada ===
+docs/_build/
+site/
+mkdocs.yml.lock
+*.pdf
+
+# === Archivos de respaldo de editores ===
+*~
+*.orig
